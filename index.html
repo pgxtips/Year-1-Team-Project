@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="//db.onlinewebfonts.com/c/2d1967c1152d11f416a2c7ce2975a779?family=URWEgyptienneW01-MediumWide" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <div id="header">
+            <h2>MAPSTRACTION</h2>
+        </div>
+
+        <div class="container-grid">
+            <div id="settings">
+
+                <h3>Filters</h3>
+                <div id="filter-list"></div>
+
+                <div class="selection-menu">
+                    <form>
+                        <ul>
+                            <li><label for="building">Building:</label></li>
+                            <li class="selection-menu"><select name="building" id="building">
+                                <option value="JD_East_Central">John Dalton East and Central</option>
+                                <option value="Geoffrey_Manson">Geoffrey Manson</option>
+                            </select></li>
+
+                            <li><label for="floor">Floor:</label></li>
+                            <li class="selection-menu"><select name="floor" id="floor">
+                                <option value="Ground">Ground</option>
+                                <option value="First">1st</option>
+                                <option value="Second">2nd</option>
+                                <option value="Third">3rd</option>
+                            </select></li>
+                        </ul>
+                    </form>
+                </div>
+
+            </div>
+
+            <div id="view">
+                <div id="overlays"></div>
+                <img src="" id="base-img" alt=""\>
+            </div>
+
+            
+        </div> 
+
+        
+
+    </body>
+
+    <script src="script.js"></script>
+</html>

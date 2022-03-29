@@ -1,0 +1,116 @@
+@import url(//db.onlinewebfonts.com/c/2d1967c1152d11f416a2c7ce2975a779?family=URWEgyptienneW01-MediumWide);
+
+@font-face {font-family: "URWEgyptienneW01-MediumWide"; 
+    src: url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.eot"); 
+    src: url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/2d1967c1152d11f416a2c7ce2975a779.svg#URWEgyptienneW01-MediumWide") format("svg"); 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("bg.png");
+    background-size: cover;
+
+    font-family: "Century Gothic"; 
+    font-size: 16px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 700; 
+    line-height: 26.4px;
+
+    border:4px solid whitesmoke;
+    padding: 0 0 2% 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+
+#header{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20%;
+    min-width: 100%;
+    margin-bottom: 1%;
+
+    background-color: whitesmoke;
+
+    font-family: "URWEgyptienneW01-MediumWide";
+
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 40% 55%;
+    justify-items: center;
+}
+
+#settings{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width:70%;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 5%;
+}
+
+#filter-list{
+    padding: 2%;
+}
+
+#filter-list ul{
+    padding: 0;
+}
+
+#filter-list li{
+    height: 30%;
+    list-style-type: none;
+}
+
+
+.selection-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#view{
+    position: relative;
+    justify-self: left;
+    /*margin-left: 5%;*/
+    background-color: gray;
+    border: 5px solid whitesmoke;
+    width: 100%;
+    height: 95%;
+}
+
+#view img{
+    width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#overlays{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#overlays img{
+    position: absolute;
+    width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
